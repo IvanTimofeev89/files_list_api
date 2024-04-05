@@ -2,8 +2,8 @@ version: "2.24.0"
 
 
 services:
-    directoryapi:
-        container_name: directoryapi
+    files_list_api:
+        container_name: files_list_api
         build: .
         ports:
             - "8000:8000"
